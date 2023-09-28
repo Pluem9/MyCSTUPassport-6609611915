@@ -1,4 +1,6 @@
-ul {
+ 
+ 
+ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -30,3 +32,44 @@ ul {
   .active {
     background-color: #04AA6D;
   }
+
+  .content {
+    padding: 2%;
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+  .information-section {
+    padding: 5%;
+  
+    .passport-title {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    > dl > dt {
+      font-size: 1.25rem;
+      color: var(--primary-color);
+      margin-top: 1rem;
+    }
+}
+
+  .pic {
+    margin: 0 auto;
+    width: fit-content;
+  
+    > img {
+      width: auto;
+      height: 34rem;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+  }
+  .introduce-video {
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 12px;
+    display: block;
+    height: auto;
+    
+  }
+  
